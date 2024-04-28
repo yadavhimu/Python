@@ -10,13 +10,17 @@
 # name = input("name :")
 # print(name)
 
-name = input("name :")
-age = int(input("age :"))
-marks = float(input("marks : "))
+# name = input("name :")
+# age = int(input("age :"))
+# marks = float(input("marks : "))
 
-print("My name is",name,"ang I am", age,"year old","My marks are",marks)
+# print("My name is",name,"ang I am", age,"year old","My marks are",marks)
 
-Marks = input("Marks : ")
-if(Marks >= 90){
-   print("Grade A")
-}
+ 
+x= int(input("What is your exam Score? "))
+if x >=90:
+    print('Grade A')
+elif x>=80:
+    print('Grade B') 
+else:
+    print("fail")           
