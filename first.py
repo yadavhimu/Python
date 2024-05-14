@@ -17,14 +17,18 @@
 # print("My name is",name,"ang I am", age,"year old","My marks are",marks)
 
  
-x= int(input("What is your exam Score? "))
-if x >=90:
-    print('Grade A')
-elif x>=80:
-    print('Grade B') 
-elif x>=70:
-    print('Grade C') 
-elif x>=60:
-    print('Grade D') 
-else:
-    print("fail")           
+# x= int(input("What is your exam Score? "))
+# if x >=90:
+#     print('Grade A')
+# elif x>=80:
+#     print('Grade B') 
+# elif x>=70:
+#     print('Grade C') 
+# elif x>=60:
+#     print('Grade D') 
+# else:
+#     print("fail")           
+
+str1 = "This is a string.\nwe are creating it in python"
+str2 = "\nThis is a string.\twe are creating it in python"
+print(str1, str2)
