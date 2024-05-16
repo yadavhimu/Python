@@ -33,8 +33,10 @@
 # str2 = "\nThis is a string.\twe are creating it in python"
 # print(str1, str2)
 
-# name = input("Enter your name : ")
+# name = input("Enter your name : ") 
 # print("length of name is ", len(name))
 
 # str = "hi my name  hhh  himanshu hhh"
 # print(str.count("h"))
+
+
