@@ -38,5 +38,3 @@
 
 # str = "hi my name  hhh  himanshu hhh"
 # print(str.count("h"))
-
-
