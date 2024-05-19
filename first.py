@@ -27,7 +27,9 @@
 # elif x>=60:
 #     print('Grade D') 
 # else:
-#     print("fail")           
+#     print("fail")     
+
+
 
 # str1 = "This is a string.\nwe are creating it in python"
 # str2 = "\nThis is a string.\twe are creating it in python"
