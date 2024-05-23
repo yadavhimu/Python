@@ -40,3 +40,30 @@
 
 # str = "hi my name  hhh  himanshu hhh"
 # print(str.count("h"))
+
+# >>> num_list = "0123456789"
+# >>> num_list[:]
+# '0123456789'
+# >>> num_list[3:]
+# '3456789'
+# >>> num_list[:4] 
+# '0123'
+# >>> num_list[:-1]
+# '012345678'
+# >>> num_list[-1:] 
+# '9'
+# >>> num_list[-2:] 
+# '89'
+# >>> num_list[:-2] 
+# '01234567'
+# >>>
+
+# >>> chai_type
+# 'masala'
+# >>> quantity
+# 2
+# >>> order
+# ' I orderd {} cups of {} chai'
+# >>> print(order.format(quantity, chai_type))
+#  I orderd 2 cups of masala chai
+# >>>
