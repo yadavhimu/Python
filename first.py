@@ -154,3 +154,45 @@
 #     reversed_str =  reversed_str + char
 
 # print(reversed_str)
+
+# question first non repeated character
+
+# input_str = "teeteracdacd"
+
+# for char in input_str:
+#     print(char)
+#     if input_str.count(char) == 1:
+#         print("Char is:",char)
+#         break
+
+# question Calculate factorial
+
+# number = 6
+# factorial = 1
+
+# while number > 0:
+#     factorial *= number
+#     number -= 1
+# print("Factorial of this number is :",factorial)
+
+# question validate Input
+# while True :
+#     number = int(input("Enter value b/w 1 and 10: "))
+#     if 1<= number <= 10:
+#         print("thanks")
+#         break
+#     else:
+#         print("Invalid number, Try again")
+
+# Question number is prime or not
+# number = 31
+
+# is_prime = True
+
+# if number > 1:
+#     for i in range(2, number):
+#         if(number % i) == 0:
+#             is_prime = False
+#             break
+
+# print(is_prime)
