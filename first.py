@@ -55,6 +55,8 @@
 #  I orderd 2 cups of masala chai
 # >>>
 
+# Conditionals 
+
 # Question = Age Group Categorization
 # age = 65
 
@@ -97,13 +99,58 @@
 # else:
 #     print("fail")   
 
-fruit = "Banana"
-color = "Yellow"
+# fruit = "Banana"
+# color = "Yellow"
 
-if fruit == "Banana":
-    if color == "Green":
-       print("Unripe")
-    elif color == "Yellow":
-        print("Ripe") 
-    elif color == "Brown":
-        print("OverRipe")
+# if fruit == "Banana":
+#     if color == "Green":
+#        print("Unripe")
+#     elif color == "Yellow":
+#         print("Ripe") 
+#     elif color == "Brown":
+#         print("OverRipe")
+
+
+
+# year = 2023
+
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100 !=0):
+#     print(year, "is a leap year")
+# else:
+#     print(year, "is NOT a leap year")
+
+# Loops Problems
+
+# numbers = [1,-2,3,-4,5,6,-7,-8,9,10]
+# positive_number_count = 0
+# for num in numbers:
+#     if num > 0:
+#         positive_number_count += 1
+# print("Final count of positive number is:", positive_number_count)
+
+# question calculate even number
+# n = 10
+# sum_even = 0
+
+# for i in range(1, n+1):
+#     if i%2 == 0:
+#         sum_even += 1
+# print("sum of even number is:",sum_even)
+
+# question print the table of 3 and skip 5th itration
+# number = 3
+
+# for i in range(1,11):
+#     if i == 5:
+#         continue
+#     print(number, 'x',i,'=',number * i)
+
+# question reverse string
+
+# input_str = "Python"
+# reversed_str = ""
+
+# for char in input_str:
+#     reversed_str =  reversed_str + char
+
+# print(reversed_str)
