@@ -196,3 +196,35 @@
 #             break
 
 # print(is_prime)
+
+# question= List  uniqueness checker
+
+# items = ["apple", "banana", "orange","apple","mango"]
+
+# unique_item = set()
+
+# for item in items:
+#     if item in unique_item:
+#         print("Duplicate:", item)
+#         break
+#     unique_item.add(item)
+
+
+# question waiting time 
+# import time
+
+# wait_time = 1
+# max_retries = 5
+# attempts = 0
+
+# while attempts < max_retries:
+#     print("Attempt", attempts + 1 ,"-wait time", wait_time, )
+#     time.sleep(wait_time)
+#     wait_time *=2
+#     attempts += 1
+
+# function problem
+# def square (number):
+#     return number ** 2
+# result = square(4)
+# print(result)
