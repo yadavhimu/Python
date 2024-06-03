@@ -223,8 +223,14 @@
 #     wait_time *=2
 #     attempts += 1
 
+
 # function problem
 # def square (number):
 #     return number ** 2
 # result = square(4)
 # print(result)
+
+# function problem
+# def add(numOne, numTwo):
+#     return numOne + numTwo
+# print(add(2,5))
