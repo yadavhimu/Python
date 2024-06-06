@@ -246,4 +246,35 @@
 # print(multiply(5, 'a'))
 
 
+# def greet(name = "User"):
+#     return "Hello, " + name + " !"
 
+
+# print(greet("chai"))
+# print(greet())
+
+
+
+# cube = lambda x: x ** 3
+
+# print(cube(3))
+
+
+def sum_all(*args):
+    print(args)
+    for i in args:
+        print(i * 2)
+    return sum(args)
+
+print(sum_all(1, 2, 3))
+# print(sum_all(1, 2, 3, 4, 5))
+# print(sum_all(1, 2, 3, 4, 5, 6, 7, 8))
+
+# def print_kwargs(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
+
+
+# print_kwargs(name="shaktiman", power="lazer")
+# print_kwargs(name="shaktiman")
+# print_kwargs(name="shaktiman", power="lazer", enemy = "Dr. Jackaal")
