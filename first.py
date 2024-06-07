@@ -260,13 +260,13 @@
 # print(cube(3))
 
 
-def sum_all(*args):
-    print(args)
-    for i in args:
-        print(i * 2)
-    return sum(args)
+# def sum_all(*args):
+#     print(args)
+#     for i in args:
+#         print(i * 2)
+#     return sum(args)
 
-print(sum_all(1, 2, 3))
+# print(sum_all(1, 2, 3))
 # print(sum_all(1, 2, 3, 4, 5))
 # print(sum_all(1, 2, 3, 4, 5, 6, 7, 8))
 
@@ -278,3 +278,9 @@ print(sum_all(1, 2, 3))
 # print_kwargs(name="shaktiman", power="lazer")
 # print_kwargs(name="shaktiman")
 # print_kwargs(name="shaktiman", power="lazer", enemy = "Dr. Jackaal")
+
+i = 1
+while i <= 5 :
+    i += 1
+    print(i)
+# print(i)
