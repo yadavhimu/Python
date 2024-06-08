@@ -279,8 +279,21 @@
 # print_kwargs(name="shaktiman")
 # print_kwargs(name="shaktiman", power="lazer", enemy = "Dr. Jackaal")
 
-i = 1
-while i <= 5 :
-    i += 1
-    print(i)
+# i = 1
+# while i <= 5 :
+#     i += 1
+#     print(i)
 # print(i)
+
+# def even_generator(limit):
+#     for i in range(2, limit + 1, 2):
+#         yield i
+
+# for num in even_generator(10):
+#     print(num)
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
