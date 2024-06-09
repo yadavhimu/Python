@@ -384,3 +384,4 @@
 
 #     def fuel_type():
 #         return "Electric charge"
+
