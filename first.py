@@ -411,4 +411,17 @@
 # my_new_car = Car("Tata", "Safari")
 # print(my_new_car.model)
 
+# class Battery:
+#     def battery_info(self):
+#         return "this is battery"
 
+# class Engine:
+#     def engine_info(self):
+#         return "This is engine"
+
+# class ElectricCarTwo(Battery, Engine, Car):
+#     pass
+
+# my_new_tesla = ElectricCarTwo("Tesla", "Model S")
+# print(my_new_tesla.engine_info())
+# print(my_new_tesla.battery_info())
