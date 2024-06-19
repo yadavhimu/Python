@@ -7,7 +7,3 @@ finally:
 
 with open('youtube.txt', 'w') as file:
     file.write('chai aur python')
-
-
-
- 
