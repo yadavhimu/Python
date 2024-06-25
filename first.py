@@ -431,5 +431,3 @@
 # print(my_new_tesla.battery_info())
 
 
-
-
