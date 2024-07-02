@@ -13,12 +13,29 @@
 # x= tuple(i for i in range(100) if i % 5 == 0)
 # print(x)
 
-x= {i for i in range(100) if i % 5 == 0}
-print(x)
+# x= {i for i in range(100) if i % 5 == 0}
+# print(x)
 
-def func(x,y,z=None):
-    print('Run',x,y,z)
-    return x * y,x/y 
+# def func(x,y,z=None):
+#     print('Run',x,y,z)
+#     return x * y,x/y 
 
-r1,r2= func(5,6,7)
-print(r1,r2)
+# r1,r2= func(5,6,7)
+# print(r1,r2)
+
+def func(x,y):
+    print(x,y)
+
+pairs = [(1,2),(3,4)]
+
+for pair in pairs:
+    func(*pair)
+
+
+def func(x,y):
+    print(x,y)
+
+pairs = [(1,2),(3,4)]
+
+for pair in pairs:
+    func(**{'x':2, 'y':5})
