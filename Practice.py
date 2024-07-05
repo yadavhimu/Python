@@ -57,7 +57,8 @@
 # print(list(mp))
 
 
-x = [1,2,4,5,3,3,21,2,21,2,313,1,23,142,4]
+# x = [1,2,4,5,3,3,21,2,21,2,313,1,23,142,4]
 
-mp = filter(lambda i: i % 2 == 0, x)
-print(list(mp))
+# mp = filter(lambda i: i % 2 == 0, x)
+# print(list(mp))
+
