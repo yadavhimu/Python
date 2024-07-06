@@ -430,7 +430,3 @@
 # print(my_new_tesla.engine_info())
 # print(my_new_tesla.battery_info())
 
-
-
-
-
