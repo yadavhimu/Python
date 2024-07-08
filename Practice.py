@@ -61,3 +61,14 @@
 # mp = filter(lambda i: i % 2 == 0, x)
 # print(list(mp))
 
+# name = input("what is your name :")
+# Date= input("what is your joining date :")
+
+# print(f"Dear {name}, You are selected {Date}")
+
+
+letter = '''Dear <|Name|>,
+You are selected!
+<|Date|>'''
+
+print(letter.replace("<|Name|>","Himanshu").replace("<|Date|>","30/07/2024"))
