@@ -52,6 +52,7 @@ def delete_video(videos):
         print("Invalid video index selected")
 
 
+        
 def main():
     videos = load_data()
     while True:
