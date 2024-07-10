@@ -71,6 +71,4 @@ letter = '''Dear <|Name|>,
 You are selected!
 <|Date|>'''
 
-
-
 print(letter.replace("<|Name|>","Himanshu").replace("<|Date|>","30/07/2024"))
