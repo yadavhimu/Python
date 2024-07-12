@@ -108,3 +108,10 @@
 # s.add('20') #length of s after these operation
 # print(s)
 # print(len(s))
+
+a = int(input("Enter your age: "))
+if(a>=18):
+    print("Yes")
+
+else:
+    print("not valid")
