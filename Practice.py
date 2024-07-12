@@ -67,8 +67,19 @@
 # print(f"Dear {name}, You are selected {Date}")
 
 
-letter = '''Dear <|Name|>,
-You are selected!
-<|Date|>'''
+# letter = '''Dear <|Name|>,
+# You are selected!
+# <|Date|>'''
 
-print(letter.replace("<|Name|>","Himanshu").replace("<|Date|>","30/07/2024"))
+# print(letter.replace("<|Name|>","Himanshu").replace("<|Date|>","30/07/2024"))
+
+words = {
+    "madad":"help",
+    "kursi":"chair",
+    "billi":"Cat"
+}
+
+word = input("Enter the word you want meaning of: ")
+
+print(words[word])
+
