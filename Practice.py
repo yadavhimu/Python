@@ -73,13 +73,30 @@
 
 # print(letter.replace("<|Name|>","Himanshu").replace("<|Date|>","30/07/2024"))
 
-words = {
-    "madad":"help",
-    "kursi":"chair",
-    "billi":"Cat"
-}
+# words = {
+#     "madad":"help",
+#     "kursi":"chair",
+#     "billi":"Cat"
+# }
 
-word = input("Enter the word you want meaning of: ")
+# word = input("Enter the word you want meaning of: ")
 
-print(words[word])
+# print(words[word])
 
+s = set()
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+
+print(s)
