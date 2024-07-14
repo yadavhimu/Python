@@ -146,9 +146,15 @@
 #     print("You are fail:",total_percentage)
 
 
-l = [1, "Hmm", False , "This", "Person", "Rohan", "Shubham"]
+# l = [1, "Hmm", False , "This", "Person", "Rohan", "Shubham"]
 
-i=0
-while(i<len(l)):
-    print((l[i]))
-    i +=1
+# i=0
+# while(i<len(l)):
+#     print((l[i]))
+#     i +=1
+
+l = ["Harry", "Soham", "Sachin", "Rahul"]
+
+for name in l :
+    if(name.startswith("H")):
+        print(f"Hello {name}")
