@@ -133,14 +133,24 @@
 # elif(a4>a1 and a4>a2 and a4>a3):
 #     print("Gratest number is a4:", a4)
 
-marks1 = int(input("Enter Marks 1: "))
-marks2 = int(input("Enter Marks 2: "))
-marks3 = int(input("Enter Marks 3: "))
+# marks1 = int(input("Enter Marks 1: "))
+# marks2 = int(input("Enter Marks 2: "))
+# marks3 = int(input("Enter Marks 3: "))
 
-total_percentage = (100*(marks1 + marks2 + marks3))/300
+# total_percentage = (100*(marks1 + marks2 + marks3))/300
 
-if(total_percentage>=40 and marks1>=33 and marks2>=33 and marks3>=33):
-    print("You are passed:",total_percentage)
+# if(total_percentage>=40 and marks1>=33 and marks2>=33 and marks3>=33):
+#     print("You are passed:",total_percentage)
 
-else:
-    print("You are fail:",total_percentage)
+# else:
+#     print("You are fail:",total_percentage)
+
+
+l = [1, "Hmm", False , "This", "Person", "Rohan", "Shubham"]
+
+i=0
+
+while(i<len(l)):
+    print((l[i]))
+    i +=1
+    
