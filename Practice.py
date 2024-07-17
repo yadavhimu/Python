@@ -185,11 +185,18 @@
 # goodDay("Harry", "Thanks")
 # goodDay("Rohan")
 
-def factorial(n):
-    if(n==1 or n==0):
+# def factorial(n):
+#     if(n==1 or n==0):
+#         return 1
+#     return n * factorial(n-1)
+
+# n=int(input("Enter a numbrt: "))
+# print(f"The factorial of this number is : {factorial(n)}")
+
+
+def sum(n):
+    if(n==1):
         return 1
-    return n * factorial(n-1)
+    return sum(n-1) + n
 
-n=int(input("Enter a numbrt: "))
-print(f"The factorial of this number is : {factorial(n)}")
-
+print(sum(5))
