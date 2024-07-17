@@ -202,16 +202,17 @@
 # print(sum(5))
 
 # n = int(input("Enter the number: "))
-# for i in range(1, n+1):
-#     print("*"* (n), end="")
-#     # print(" "* (n), end="")
+# for i in range(n,0, -1):
+#     print(" "* (n-i), end="")
+#     print("*"* (2*i-1), end="")
 #     print("")
 
 
-def pattern(n):
-    if(n==0):
-        return
-    print("*" * n)
-    pattern(n-1)
 
-pattern(5)
+# def pattern(n):
+#     if(n==0):
+#         return
+#     print("*" * n)
+#     pattern(n-1)
+
+# pattern(5)
