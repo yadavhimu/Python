@@ -172,10 +172,24 @@
 
 # print(f"The factorial of {n} is {product}")
 
-n = int(input("Enter the number: "))
-for i in range(1, n+1):
-    print(" "* (n-i), end="")
-    print("*"* (2*i-1), end="")
-    print("")
+# n = int(input("Enter the number: "))
+# for i in range(1, n+1):
+#     print(" "* (n-i), end="")
+#     print("*"* (2*i-1), end="")
+#     print("")
 
-    
+# def goodDay(name,ending="Thank you"):
+#     print(f"Good Day, {name}")
+#     print(ending)
+
+# goodDay("Harry", "Thanks")
+# goodDay("Rohan")
+
+def factorial(n):
+    if(n==1 or n==0):
+        return 1
+    return n * factorial(n-1)
+
+n=int(input("Enter a numbrt: "))
+print(f"The factorial of this number is : {factorial(n)}")
+
