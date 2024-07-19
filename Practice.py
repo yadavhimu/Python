@@ -212,5 +212,4 @@
 #         return
 #     print("*" * n)
 #     pattern(n-1)
-
 # pattern(5)
