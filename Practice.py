@@ -179,6 +179,7 @@
 #     print("*"* (2*i-1), end="")
 #     print("")
 
+
 # def goodDay(name,ending="Thank you"):
 #     print(f"Good Day, {name}")
 #     print(ending)
