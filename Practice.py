@@ -199,12 +199,14 @@
 #         return 1
 #     return sum(n-1) + n
 
+
 # print(sum(5))
 # n = int(input("Enter the number: "))
 # for i in range(n,0, -1):
 #     print(" "* (n-i), end="")
 #     print("*"* (2*i-1), end="")
 #     print("")
+
 
 # def pattern(n):
 #     if(n==0):
