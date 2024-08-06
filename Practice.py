@@ -207,7 +207,6 @@
 #     print("*"* (2*i-1), end="")
 #     print("")
 
-
 # def pattern(n):
 #     if(n==0):
 #         return
