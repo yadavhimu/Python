@@ -412,6 +412,7 @@
 # print(my_car.model)
 # print(my_car.full_name())
 
+
 # my_new_car = Car("Tata", "Safari")
 # print(my_new_car.model)
 
