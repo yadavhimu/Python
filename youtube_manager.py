@@ -63,6 +63,8 @@ def main():
         choice = input("Enter your choice: ")
         # print(videos)
 
+div (" match coice ")
+       (" lisy_all_videos")
         match choice:
             case '1':
                 list_all_videos(videos)
