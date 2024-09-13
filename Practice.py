@@ -207,13 +207,10 @@
 #     print("*"* (2*i-1), end="")
 #     print("")
 
-
 # def pattern(n):
 #     if(n==0):
 #         return
 #     print("*" * n)
 #     pattern(n-1)
 # pattern(5)
-
-
 
